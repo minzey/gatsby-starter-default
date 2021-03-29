@@ -1,3 +1,10 @@
+
+:root {
+  --slate: darken(#eceef1, 70%);
+  --light-gray: #eceef1;
+  --gray: darken(#eceef1, 30%);
+}
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -10,7 +17,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: "Slabo 27px", serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -80,10 +87,8 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  color: var(--slate);
+  font-family: "Slabo 27px", serif;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;

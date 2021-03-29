@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    build: .
+    command: bash -c "sleep infinity"
+    # command: bash -c "gatsby develop -H 0.0.0.0 -p 5000"
+    image: gcr.io/swati-data-archiver/logomeaning:ab4b38528793
+    container_name: web
+    volumes:
+      - .:/root/src
+    working_dir: /root/src
+    ports:
+      - "5000:5000"

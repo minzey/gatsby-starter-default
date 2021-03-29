@@ -8,9 +8,11 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import "@fontsource/slabo-27px"
 
 import Header from "./header"
-import "./layout.css"
+import "./index_layout.scss"
+
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -33,8 +35,8 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <main>{children}</main>
-        <footer
+        <div className={`wrapper`}>{children}</div>
+        {/* <footer
           style={{
             marginTop: `2rem`,
           }}
@@ -42,7 +44,7 @@ const Layout = ({ children }) => {
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
+        </footer> */}
       </div>
     </>
   )

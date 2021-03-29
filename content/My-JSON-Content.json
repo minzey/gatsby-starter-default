@@ -1,0 +1,37 @@
+{
+    "title": "Data of brand logos and their stories",
+    "content": [
+      {
+        "meaning": "Akheri is the traditional name of the Paisley motif used in Chikankari embroidery.",
+        "logo_img": "amazon_logo.jpg",
+        "brand_name":"akheri",
+        "tags": ["fashion", "ethnic", "chikankari"],
+        "origin": "India",
+        "founders": ["Apoorva Agarwal"]
+      },
+      {
+        "meaning": "Akheri is the traditional name of the Paisley motif used in Chikankari embroidery.",
+        "logo_img": "gatsby-icon.png",
+        "brand_name":"gatsby",
+        "tags": ["fashion", "ethnic", "chikankari"],
+        "origin": "India",
+        "founders": ["Apoorva Agarwal"]
+      },
+      {
+        "meaning": "Akheri is the traditional name of the Paisley motif used in Chikankari embroidery.",
+        "logo_img": "gatsby-astronaut.png",
+        "brand_name":"spacex",
+        "tags": ["fashion", "ethnic", "chikankari"],
+        "origin": "India",
+        "founders": ["Apoorva Agarwal"]
+      },
+      {
+        "meaning": "Akheri is the traditional name of the Paisley motif used in Chikankari embroidery.",
+        "logo_img": "",
+        "brand_name":"akheri",
+        "tags": ["fashion", "ethnic", "chikankari"],
+        "origin": "India",
+        "founders": ["Apoorva Agarwal"]
+      }
+    ]
+  }

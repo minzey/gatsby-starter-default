@@ -1,12 +1,16 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+// import { DEFAULT_BREAKPOINTS } from "gatsby-plugin-image/dist/src/image-utils"
+import "./index_layout.scss"
+
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `white`,
       marginBottom: `1.45rem`,
+      textAlign: `center`
     }}
   >
     <div
@@ -20,8 +24,9 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `var(--slate)`,
             textDecoration: `none`,
+            textTransform: `uppercase`
           }}
         >
           {siteTitle}
